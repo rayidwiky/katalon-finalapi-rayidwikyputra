@@ -1,0 +1,4 @@
+firstname,lastname,totalprice,depositpaid,checkin,checkout,additionalneeds
+Jim,Brown,111,true,2018-01-01,2019-01-01,Breakfast
+Alice,Smith,150,false,2022-05-01,2022-05-10,Extra Towels
+Bob,Johnson,200,true,2023-01-15,2023-01-20,Shuttle Service
