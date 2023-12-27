@@ -1,24 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>DeleteBooking</name>
+   <name>UpdateBooking</name>
    <tag></tag>
-   <elementGuidId>f52be94a-ec93-45f6-8817-eb51f8f318a1</elementGuidId>
+   <elementGuidId>a24c4ffc-ffd3-4f62-8ba1-1101863b880b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n    \&quot;firstname\&quot; : \&quot;James\&quot;,\n    \&quot;lastname\&quot; : \&quot;Brown\&quot;,\n    \&quot;totalprice\&quot; : 111,\n    \&quot;depositpaid\&quot; : true,\n    \&quot;bookingdates\&quot; : {\n        \&quot;checkin\&quot; : \&quot;2018-01-01\&quot;,\n        \&quot;checkout\&quot; : \&quot;2019-01-01\&quot;\n    },\n    \&quot;additionalneeds\&quot; : \&quot;Breakfast\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>60b4048f-a037-4b99-8217-5ef4bf8e0d03</webElementGuid>
+      <webElementGuid>ff2b7bb7-84fc-4bbc-8643-7546834add11</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>1ab23000-a601-4e07-8c64-193bb90c619b</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -26,12 +38,12 @@
       <name>Cookie</name>
       <type>Main</type>
       <value>token=${token}</value>
-      <webElementGuid>250e83d0-bb94-4f7c-9b48-892247d709c5</webElementGuid>
+      <webElementGuid>003b834d-efbf-4662-8d70-a62d74cee434</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.1.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>DELETE</restRequestMethod>
+   <restRequestMethod>PUT</restRequestMethod>
    <restUrl>https://restful-booker.herokuapp.com/booking/${id}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
@@ -44,14 +56,14 @@
    <variables>
       <defaultValue>'9e575c3badc1247'</defaultValue>
       <description></description>
-      <id>1dc9721e-dbd5-438d-95fd-8b6cdf9e4c27</id>
+      <id>e5e70ced-bc97-4c9b-8193-12d4d9dfa1ff</id>
       <masked>false</masked>
       <name>token</name>
    </variables>
    <variables>
-      <defaultValue>'309'</defaultValue>
+      <defaultValue>'1234'</defaultValue>
       <description></description>
-      <id>1de5c352-088e-49af-91b7-023b1cfdcf17</id>
+      <id>87e2372a-f313-43b4-a09d-86428eb59fa2</id>
       <masked>false</masked>
       <name>id</name>
    </variables>
