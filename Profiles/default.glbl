@@ -9,4 +9,9 @@
       <initValue>'853'</initValue>
       <name>ID</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'edf0ad420002181'</initValue>
+      <name>TOKEN</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

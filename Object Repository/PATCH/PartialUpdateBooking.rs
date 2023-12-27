@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>DeleteBooking</name>
+   <name>PartialUpdateBooking</name>
    <tag></tag>
-   <elementGuidId>f52be94a-ec93-45f6-8817-eb51f8f318a1</elementGuidId>
+   <elementGuidId>91cb92dd-c6ec-4eff-a34d-a54bc82aec01</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
@@ -18,7 +18,15 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>60b4048f-a037-4b99-8217-5ef4bf8e0d03</webElementGuid>
+      <webElementGuid>d9265e9f-f246-4f07-a52a-821f1e45ce9c</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>fcbb9d42-4794-41b2-90a7-fe66d6afbaaf</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -26,12 +34,12 @@
       <name>Cookie</name>
       <type>Main</type>
       <value>token=${token}</value>
-      <webElementGuid>250e83d0-bb94-4f7c-9b48-892247d709c5</webElementGuid>
+      <webElementGuid>b5115707-4f9a-4fb7-942d-fb621e89303c</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.1.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>DELETE</restRequestMethod>
+   <restRequestMethod>GET</restRequestMethod>
    <restUrl>https://restful-booker.herokuapp.com/booking/${id}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
@@ -39,19 +47,19 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>'9e575c3badc1247'</defaultValue>
       <description></description>
-      <id>1dc9721e-dbd5-438d-95fd-8b6cdf9e4c27</id>
+      <id>ea38ef3f-8570-497b-8f2b-b0cba1f20642</id>
       <masked>false</masked>
       <name>token</name>
    </variables>
    <variables>
-      <defaultValue>'309'</defaultValue>
+      <defaultValue>'1234'</defaultValue>
       <description></description>
-      <id>1de5c352-088e-49af-91b7-023b1cfdcf17</id>
+      <id>4871fcc5-5859-435e-b1df-7b3df6ca12eb</id>
       <masked>false</masked>
       <name>id</name>
    </variables>
