@@ -11,7 +11,7 @@ Author : Rayi
 ** Test Case **
 -----------------------------------------------------
 > TC_CreateBooking
-1. Data Binding (3)
+1. Data Binding (3 data)
 2. Verification Status Code
 3. Verification Data Binding vs Booking
    
