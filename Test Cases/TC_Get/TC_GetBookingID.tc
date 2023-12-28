@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Delete_Booking</name>
+   <name>TC_GetBookingID</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>bf8ef4f5-dd78-44b6-a934-c5f8be7863ae</testCaseGuid>
+   <testCaseGuid>31152929-6cda-47d0-b4ee-0811405b1bef</testCaseGuid>
 </TestCaseEntity>

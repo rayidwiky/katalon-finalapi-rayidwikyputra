@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>GetBooking</name>
+   <name>TC_PartialUpdate</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b95b077e-3cd1-4e9e-b9dc-163f1eae9325</testCaseGuid>
+   <testCaseGuid>ae8a6e5c-0054-47a3-a8ef-7adfe496261a</testCaseGuid>
 </TestCaseEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Create_Booking</name>
+   <name>TC_CreateBooking</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>bc9e682e-9ead-4a0f-9dbf-92186be57f83</testCaseGuid>

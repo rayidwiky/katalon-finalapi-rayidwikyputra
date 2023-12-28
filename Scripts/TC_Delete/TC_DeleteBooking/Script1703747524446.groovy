@@ -25,7 +25,7 @@ def tokenValue = jsonResponse.token
 WS.comment("Token Value: $tokenValue")
 
 //ambil id
-WebUI.callTestCase(findTestCase('GetBookingID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TC_Get/TC_GetBookingID'), [:], FailureHandling.STOP_ON_FAILURE)
 WS.comment("${GlobalVariable.ID}")
 
 def responsedelete = WS.sendRequest(findTestObject('Delete/DeleteBooking', [('token') : tokenValue, ('id') : GlobalVariable.ID]))
