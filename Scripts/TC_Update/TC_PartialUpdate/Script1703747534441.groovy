@@ -8,13 +8,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 // Mengambil ID dari testcase 'GetBookingID'
-WebUI.callTestCase(findTestCase('GetBookingID'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TC_Get/TC_GetBookingID'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Menampilkan nilai ID yang diambil
 WS.comment("Booking ID: ${GlobalVariable.ID}")
 
 // Mengambil token dari testcase 'GetToken'
-WebUI.callTestCase(findTestCase('GetToken'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TC_Get/TC_GetToken'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Menampilkan nilai token yang diambil
 WS.comment("Token Value: ${GlobalVariable.TOKEN}")

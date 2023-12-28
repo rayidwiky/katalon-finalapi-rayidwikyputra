@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>GetBooking and GetToken</name>
+   <name>TS_DeleteBooking</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,26 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>da58b8cc-f238-4b52-9964-3753077406bf</testSuiteGuid>
+   <testSuiteGuid>c30f1b06-bd24-435f-8e19-e2afeebc176f</testSuiteGuid>
    <testCaseLink>
-      <guid>c13e27c3-ba7c-438b-8733-dccec1099168</guid>
+      <guid>bf68af38-1015-40a5-af94-fd1b4dc5dcd4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/GetBooking</testCaseId>
+      <testCaseId>Test Cases/TC_Get/TC_GetBookingID</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>373548a9-d4ec-469b-9458-3e5ea9258876</guid>
+      <guid>0a7f00b8-3aa3-4bf8-9f66-ac590d43869f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/GetToken</testCaseId>
+      <testCaseId>Test Cases/TC_Get/TC_GetToken</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1a9d0d09-19a9-46e7-b56d-39623a91dfeb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Delete/TC_DeleteBooking</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

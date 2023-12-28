@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>GetToken</name>
+   <name>TC_UpdateBooking</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f8f84085-c264-4289-b362-0b53bacd33cb</testCaseGuid>
+   <testCaseGuid>5b9497ae-de6c-4aa2-accf-57cababc4028</testCaseGuid>
 </TestCaseEntity>
