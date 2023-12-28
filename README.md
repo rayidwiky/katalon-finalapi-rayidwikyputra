@@ -10,30 +10,30 @@ Author : Rayi
 -----------------------------------------------------
 ** Test Case **
 -----------------------------------------------------
-> Create Booking
+> TC_CreateBooking
 1. Data Binding (3)
 2. Verification Status Code
 3. Verification Data Binding vs Booking
    
-> Delete_Booking
+> TC_DeleteBooking
 1. Verification Status Code
    
-> GetBooking
+> TC_GetBooking
 1. Verification Status Code
 2. Verification respone expectedJsonResult
 
-> GetBookingID
+> TC_GetBookingID
 1. Get Booking ID
 
-> GetToken
+> TC_GetToken
 1. Get Token
 
-> PartialUpdate
+> TC_PartialUpdate
 1. Verification Status Code
 2. Verification respone expectedJsonResult
 3. Function IF-Else
 
-> UpdateBooking
+> TC_UpdateBooking
 1. Verification Status Code
 2. Verification respone expectedJsonResult
 
@@ -41,16 +41,16 @@ Author : Rayi
 
 ** Test Suite **
 -----------------------------------------------------
-> Delete Booking
+> TS_DeleteBooking
 1. Test Cases/GetBookingID
 2. Test Cases/GetToken
 3. Test Cases/Delete_Booking
 
-> GetBooking and GetToken
+> TS_GetBooking
 1. Test Cases/GetBooking
 2. Test Cases/GetToken
 
-> Update Booking
+> TS_Update Booking
 1. Test Cases/GetBookingID
 2. Test Cases/GetToken
 3. Test Cases/PartialUpdate
